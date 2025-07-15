@@ -1,1 +1,3 @@
-# hacettepe-cs-bbm416-computer-vision-project
+This is the project I did with my teammates in BBM416 Computer Vision course. Presentation can be checked for a quick overview of the project and report can be checked for all the details. A quick summary of the project is as follows:
+
+The aim of this project was to enhance detection of plastic wastes in low-res images by using superresolution methods. First, we simulated low-quality real-world images by downgrading our dataset’s HR images. Next, we enhanced degraded images using Real-ESRGAN before object detection. We trained YOLOv11 models independently with HR, LR, and SR images. The performance exhibited enhanced visual quality (SSIM improved from 0.3605 to 0.4436) and detection quality compared to LR (mAP50 from 0.518 to 0.572). Although SR did not match HR performance entirely, it had definite gains, indicating that super-resolution can be applied effectively in detection in low-quality images.
